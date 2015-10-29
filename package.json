@@ -1,6 +1,6 @@
 {
     "name": "juicy-log",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Juicy logging library for Javascript",
     "main": "index.js",
     "scripts": {

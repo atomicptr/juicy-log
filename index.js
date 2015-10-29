@@ -46,6 +46,11 @@ Logger.prototype._formatArguments = function(message) {
         message[0] = "";
     }
 
+    // try to make a string out of that object
+    if(typeof(message[0]) == "object") {
+        message[0] = JSON.stringify(message[0]);
+    }
+
     var baseMessage = message[0];
     var args = [];
 

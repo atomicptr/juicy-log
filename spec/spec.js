@@ -39,6 +39,16 @@ describe("Testing juicy-log", function() {
             juicy.error("Raxacoricofalapatorious");
             expect(test.type == Logger.type.ERROR).toBeTruthy();
         });
+
+        it("log object", function() {
+            var vec2 = {
+                x: 4,
+                y: 3
+            };
+
+            juicy.log(vec2);
+            expect(test.message).toEqual(JSON.stringify(vec2));
+        })
     });
 
     describe("formatting", function() {
