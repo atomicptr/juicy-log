@@ -1,0 +1,22 @@
+{
+    "name": "juicy-log",
+    "version": "0.1.0",
+    "description": "Juicy logging library for Javascript",
+    "main": "index.js",
+    "scripts": {
+        "test": "jasmine"
+    },
+    "devDependencies": {
+        "jasmine": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kasoki/juicy-log.git"
+    },
+    "keywords": [
+        "log",
+        "logging"
+    ],
+    "author": "Christopher Kaster <ikasoki@gmail.com> (http://christopher.kaster.ws)",
+    "license": "MIT"
+}
